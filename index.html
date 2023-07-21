@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Money Bang - Trò chơi trả lời câu hỏi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Money Bang</h1>
+        <div id="question-box">
+            <p id="question">Câu hỏi sẽ xuất hiện ở đây</p>
+            <button class="option" onclick="checkAnswer(1)">A) Lựa chọn A</button>
+            <button class="option" onclick="checkAnswer(2)">B) Lựa chọn B</button>
+            <button class="option" onclick="checkAnswer(3)">C) Lựa chọn C</button>
+            <button class="option" onclick="checkAnswer(4)">D) Lựa chọn D</button>
+        </div>
+        <div id="result-box" style="display: none;">
+            <p id="result-text">Kết quả sẽ xuất hiện ở đây</p>
+            <button onclick="playAgain()">Chơi lại</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html> 
